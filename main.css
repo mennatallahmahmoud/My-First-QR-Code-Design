@@ -1,0 +1,47 @@
+body {
+    background-color: #c4dfe3;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-qr {
+    width: fit-content;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-qr img {
+    width: 240px;
+    border-radius: 10px;
+}
+
+.main-qr .content {
+    width: 230px;
+    padding: 0 10px;
+}
+
+.main-qr h2 {
+    font-size: 13px;
+}
+
+.main-qr p {
+    font-size: 11px;
+    color: grey;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.attribution a {
+    text-decoration: none;
+}
